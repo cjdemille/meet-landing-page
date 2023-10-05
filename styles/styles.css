@@ -1,0 +1,88 @@
+:root{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+    text-align:center;
+    line-height:1.4 ;
+}
+body{
+    margin:0; 
+    padding:0;
+}
+main{
+    box-sizing: border-box;
+    padding:0 1.5rem;
+    display:flex; 
+    flex-direction: column;
+}
+
+h1{
+    font-size: 3.5rem;
+    line-height: 1;
+    color:#28283D;
+}
+p{
+    font-weight: 500;
+    color:#87879d;
+}
+
+/* hero image */
+.hero-img{
+    width: 100%; 
+    overflow:visible; 
+    margin:0;
+    background-image: url("../assets/tablet/image-hero.png");
+    min-height: 18rem;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+
+/* button styles  */
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.teal{
+    background-color: #4D96A9;
+   
+}
+
+.purple{
+    background-color: #855fb1;
+}
+.button{
+    display: inline-block;
+    padding:.75rem 1rem;
+    box-sizing: border-box;
+    /* width: 60%; */
+    margin: 1rem auto 0 auto;
+    border-radius: 3rem;
+    color: #fafafa;
+}
+.vertical{
+    border-left: 6px solid black;
+    height: 100px;
+    position:absolute;
+    left: 50%;
+}
+.num{
+    box-sizing: border-box;
+    background-color: #fafafa;
+    border:1px solid #87879d;
+    border-radius: 100%;
+    color: #87879d;
+    display: inline-block;
+    padding:.75rem 1rem;
+    margin: 1rem auto 0 auto;
+}
+
+.photos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.photos img{
+    flex: 1 1 50%; 
+    margin: 1rem;
+}
